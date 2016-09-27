@@ -69,16 +69,14 @@
             + LOGGLY_PROXY_DOMAIN
             + '/inputs/'
             + tracker.key 
-            + '/tag/'
-            + tracker.tag;
+            + '/tag/';
         }
         else{
             tracker.inputUrl = LOGGLY_INPUT_PREFIX 
             + (tracker.logglyCollectorDomain || LOGGLY_COLLECTOR_DOMAIN)
             + '/inputs/'
             + tracker.key 
-            + '/tag/'
-            + tracker.tag;
+            + '/tag/';
         }
     }
     
